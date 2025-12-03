@@ -25,9 +25,9 @@ At its core Remora is a custom ESP32 S3 devboard with a accelerometer + gyro bui
   
 ## Why:
 
-I'm building Remora as a learning project (I knew next to nothing about PCBs before two weeks ago) and as a low-cost alternative to expensive monitoring equipment. 
+I'm building Remora as a learning project and as a low-cost alternative to expensive monitoring equipment. 
 
-The goal is to create a tiny node that can attach through magnets or micro suction material to machinery or vehicles.
+The goal is to create a tiny node that can attach through magnets or micro suction material to machinery or vehicles and give realtime telemtry through a web dashboard.
 
 ---
 #Gallery:
