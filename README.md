@@ -1,7 +1,45 @@
 # Remora-V2
-I'm working on REMORA, a tiny sensor node that attaches through magnets or micro suction material (research yet to be done here) to machinery (or even RC planes) to log vibration, acceleration, rotation, and impact data. The goal is to create a low-cost alternative to expensive monitoring equipment and is lightweight enough to mount anywhere.
+The Remora V2 is a highly compact, custom development board built around the powerful ESP32-S3-WROOM-1-N8 module, intended for use as a lightweight, low-cost sensor node.
 
-BOM:
+---
+
+## What is the project?
+
+At its core Remora is a custom ESP32 S3 devboard with a accelerometer + gyro built on through a soldered on module. It has a enclosure along with magnets at the bottom, and in the future micro suction tape. 
+
+---
+
+## Some Hardware Features:
+
+- Microcontroller: ESP32-S3-Wroom (Wi-Fi, Bluetooth etc)
+
+- Sensing:  Header for an MPU-6050 (GY-521) I2C IMU sensor (Accelerometer and Gyroscope).
+
+- Power Management: Integrated Li-Ion battery charger (TP4057) and 3.3V LDO Regulator (XC6210B332MR).
+
+- User Interface: Onboard addressable RGB LED (user-controlled) and charger status LEDs (CHRG/STDBY).
+
+- Mounting: Custom enclosure designed for magnetic mounting, with future plans for micro suction material integration.
+
+---
+  
+## Why:
+
+I'm building Remora as a learning project (I knew next to nothing about PCBs before two weeks ago) and as a low-cost alternative to expensive monitoring equipment. 
+
+The goal is to create a tiny node that can attach through magnets or micro suction material to machinery or vehicles.
+
+---
+#Gallery:
+<img width="1302" height="828" alt="Schematic_remora-V3_2025-12-02" src="https://github.com/user-attachments/assets/fc134d4b-cff2-4201-92da-e8dcb1e826ac" />
+<img width="359" height="725" alt="image" src="https://github.com/user-attachments/assets/b79f95f2-5e07-49ff-bc74-aaa3abf4bacb" />
+<img width="270" height="545" alt="image" src="https://github.com/user-attachments/assets/ce9fdfd6-ac29-4d38-b807-cc5d865e4a70" />
+<img width="913" height="584" alt="image" src="https://github.com/user-attachments/assets/33b33eb5-83e5-4060-8b77-c8616497b7e7" />
+<img width="640" height="335" alt="image" src="https://github.com/user-attachments/assets/4c9db53a-eabf-4ce7-8aea-cde743656144" />
+
+--- 
+
+# BOM:
 <img width="1334" height="752" alt="image" src="https://github.com/user-attachments/assets/7167080d-bf85-48be-9639-20eb9706f0dd" />
 <img width="1791" height="555" alt="image" src="https://github.com/user-attachments/assets/cb37c58c-5d58-4e33-96ba-5a51b0301b80" />
 
