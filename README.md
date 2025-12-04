@@ -40,7 +40,8 @@ The goal is to create a tiny node that can attach through magnets or micro sucti
 --- 
 
 # BOM:
-<img width="1334" height="752" alt="image" src="https://github.com/user-attachments/assets/7167080d-bf85-48be-9639-20eb9706f0dd" />
+<img width="1367" height="492" alt="image" src="https://github.com/user-attachments/assets/258c86ff-83a2-43ed-ba68-615d609ebefe" />
+
 <img width="1791" height="555" alt="image" src="https://github.com/user-attachments/assets/cb37c58c-5d58-4e33-96ba-5a51b0301b80" />
 
 |Item                |Component Name             |Manufacturer / Source|Quantity|Cost (Estimated)|Assembly Method                                                         |Product Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |Product Description|
